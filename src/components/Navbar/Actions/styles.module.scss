@@ -1,0 +1,25 @@
+@import "../../../../styles/colors.scss";
+
+.ActionButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 22px;
+  width: 22px;
+  background: none;
+  padding: 0;
+}
+
+.notificationAlert {
+  box-sizing: content-box;
+  border-radius: 100%;
+  border: 2px solid $white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 8px;
+  width: 8px;
+  background: $danger;
+}

@@ -10,9 +10,12 @@ import "@fontsource/inter/500.css";
 import "@fontsource/inter/700.css";
 import "@fontsource/inter/900.css";
 
+import Navbar from "components/Navbar";
+
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Navbar />
       <Component {...pageProps} />
     </>
   );
