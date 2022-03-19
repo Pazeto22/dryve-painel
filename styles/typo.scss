@@ -1,0 +1,11 @@
+@import "./typostyle/font-heading.scss";
+@import "./typostyle/font-body.scss";
+@import "./typostyle/font-weights.scss";
+@import "./colors.scss";
+
+* {
+  font-family: "Inter", sans-serif !important;
+  font-weight: $font-weight-regular;
+  color: $secondary-5;
+  letter-spacing: -2.5%;
+}

@@ -1,0 +1,64 @@
+@import "./font-weights.scss";
+
+$label-weight: $font-weight-regular;
+
+.label-el {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: $label-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.label-l {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: $label-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.label-m {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: $label-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.label-s {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: $label-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+.label-es {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: $label-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+.label-t {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: $label-weight;
+}

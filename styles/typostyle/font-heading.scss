@@ -1,0 +1,69 @@
+@import "./font-weights.scss";
+
+$heading-weight: $font-weight-bold;
+
+.h-1 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: $heading-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 48px;
+    line-height: 62.4px;
+  }
+}
+
+.h-2 {
+  font-size: 32px;
+  line-height: 41.6px;
+  font-weight: $heading-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+.h-3 {
+  font-size: 24px;
+  line-height: 31.2px;
+  font-weight: $heading-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 32px;
+    line-height: 41.6px;
+  }
+}
+
+.h-4 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: $heading-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+}
+
+.h-5 {
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: $heading-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.h-1 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: $heading-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+}

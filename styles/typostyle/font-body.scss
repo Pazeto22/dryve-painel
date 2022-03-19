@@ -1,0 +1,53 @@
+@import "./font-weights.scss";
+
+$body-weight: $font-weight-regular;
+
+.body-l {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: $body-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.body-m {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: $body-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.body-s {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: $body-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.body-es {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: $body-weight;
+
+  @media (min-width: 1151.98px) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.body-t {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: $body-weight;
+}
