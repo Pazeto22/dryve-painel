@@ -16,10 +16,22 @@
 }
 
 .d-none {
-  display: none;
+  display: none !important;
+}
+
+.dm-none {
+  @media (max-width: 1150px) {
+    display: none !important;
+  }
 }
 
 .d-flex-ac {
   display: flex;
   align-items: center;
+}
+
+.d-flex-acjc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
