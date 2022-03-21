@@ -1,0 +1,31 @@
+@import "../../../../styles/colors.scss";
+
+.SideMenuLinkWrapper {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  border-radius: 6px;
+  background-color: $white;
+
+  &:hover {
+    background-color: $primary-10;
+  }
+
+  span {
+    color: inherit;
+  }
+}
+
+.SideMenuLinkActive {
+  background-color: $primary-5;
+
+  &:hover {
+    background-color: $primary-5;
+  }
+}
+
+.SideMenuLinkIcon {
+  height: 24px;
+  width: 24px;
+}

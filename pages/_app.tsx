@@ -11,11 +11,13 @@ import "@fontsource/inter/700.css";
 import "@fontsource/inter/900.css";
 
 import Navbar from "components/Navbar";
+import SideMenu from "components/SideMenu";
 
 function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar />
+      <SideMenu />
       <Component {...pageProps} />
     </>
   );
